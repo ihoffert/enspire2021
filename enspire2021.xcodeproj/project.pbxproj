@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0269CA4C26A91B250019495C /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269CA4B26A91B250019495C /* Tasks.swift */; };
+		0269CA4E26A91EAA0019495C /* completeTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269CA4D26A91EAA0019495C /* completeTasksViewController.swift */; };
 		02904D1D26A89D6100D5976A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D1C26A89D6100D5976A /* AppDelegate.swift */; };
 		02904D1F26A89D6100D5976A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D1E26A89D6100D5976A /* SceneDelegate.swift */; };
 		02904D2126A89D6100D5976A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D2026A89D6100D5976A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		02904D2C26A89D6500D5976A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02904D2A26A89D6500D5976A /* LaunchScreen.storyboard */; };
 		02904D3726A89D6600D5976A /* enspire2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D3626A89D6600D5976A /* enspire2021Tests.swift */; };
 		02904D4226A89D6600D5976A /* enspire2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D4126A89D6600D5976A /* enspire2021UITests.swift */; };
+		02904D5026A89F3D00D5976A /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D4F26A89F3D00D5976A /* resourcesViewController.swift */; };
+		02904D5226A89F5900D5976A /* tasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02904D5126A89F5900D5976A /* tasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0269CA4B26A91B250019495C /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		0269CA4D26A91EAA0019495C /* completeTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeTasksViewController.swift; sourceTree = "<group>"; };
 		02904D1926A89D6100D5976A /* enspire2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enspire2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02904D1C26A89D6100D5976A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02904D1E26A89D6100D5976A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		02904D3D26A89D6600D5976A /* enspire2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enspire2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02904D4126A89D6600D5976A /* enspire2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enspire2021UITests.swift; sourceTree = "<group>"; };
 		02904D4326A89D6600D5976A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02904D4F26A89F3D00D5976A /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
+		02904D5126A89F5900D5976A /* tasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				02904D1E26A89D6100D5976A /* SceneDelegate.swift */,
 				02904D2026A89D6100D5976A /* ViewController.swift */,
 				02904D2226A89D6100D5976A /* Main.storyboard */,
+				02904D5126A89F5900D5976A /* tasksTableViewController.swift */,
+				0269CA4D26A91EAA0019495C /* completeTasksViewController.swift */,
+				0269CA4B26A91B250019495C /* Tasks.swift */,
+				02904D4F26A89F3D00D5976A /* resourcesViewController.swift */,
 				02904D2826A89D6500D5976A /* Assets.xcassets */,
 				02904D2A26A89D6500D5976A /* LaunchScreen.storyboard */,
 				02904D2D26A89D6500D5976A /* Info.plist */,
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0269CA4C26A91B250019495C /* Tasks.swift in Sources */,
 				02904D2126A89D6100D5976A /* ViewController.swift in Sources */,
+				02904D5026A89F3D00D5976A /* resourcesViewController.swift in Sources */,
+				02904D5226A89F5900D5976A /* tasksTableViewController.swift in Sources */,
 				02904D1D26A89D6100D5976A /* AppDelegate.swift in Sources */,
 				02904D1F26A89D6100D5976A /* SceneDelegate.swift in Sources */,
+				0269CA4E26A91EAA0019495C /* completeTasksViewController.swift in Sources */,
 				02904D2726A89D6100D5976A /* enspire2021.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
