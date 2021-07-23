@@ -24,19 +24,26 @@ class completeTasksViewController: UIViewController {
         
         if let whichBadge = selectedToDo?.badge {
             if whichBadge == "💧" {
-                subtextChange.text = "Water Wizard 💧"
+                subtextChange.text = "water wizard 💧"
+                subtextChange.textColor = UIColor(red: 0.31, green: 0.54, blue: 0.77, alpha: 1.0)
             } else if whichBadge == "👟" {
-                subtextChange.text = "First Steps 👟"
+                subtextChange.text = "first steps 👟"
+                subtextChange.textColor = UIColor(red: 0.75, green: 0.75, blue: 0.75, alpha: 1.0)
             } else if whichBadge == "🥤" {
-                subtextChange.text = "Unplastic 🥤"
+                subtextChange.text = "unplastic 🥤"
+                subtextChange.textColor = UIColor(red: 0.91, green: 0.30, blue: 0.31, alpha: 1.0)
             } else if whichBadge == "📢" {
-                subtextChange.text = "Active Activist 📢"
+                subtextChange.text = "active activist 📢"
+                subtextChange.textColor = UIColor(red: 0.75, green: 0.75, blue: 0.75, alpha: 1.0)
             } else if whichBadge == "📚" {
-                subtextChange.text = "Enthusiastic Educator 📚"
+                subtextChange.text = "enthusiastic educator 📚"
+                subtextChange.textColor = UIColor(red: 0.47, green: 0.72, blue: 0.37, alpha: 1.0)
             } else if whichBadge == "🍽" {
-                subtextChange.text = "Focused Foodie 🍽"
+                subtextChange.text = "focused foodie 🍽"
+                subtextChange.textColor = UIColor(red: 0.75, green: 0.75, blue: 0.75, alpha: 1.0)
             } else if whichBadge == "♻️" {
-                subtextChange.text = "Reuser ♻️"
+                subtextChange.text = "reuser ♻️"
+                subtextChange.textColor = UIColor(red: 0.39, green: 0.81, blue: 0.17, alpha: 1.0)
             }
         }
     }
